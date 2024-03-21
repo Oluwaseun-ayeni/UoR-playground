@@ -25,40 +25,40 @@ This C++ program solves two linear equations using the Cramer’s rule
  */
 
 
-#include <stdio.h>
-#include <iostream>
+// #include <stdio.h>
+// #include <iostream>
 
-using namespace std;
+// using namespace std;
 
-int main() {
+// int main() {
     
-    // Declare float variables to store user input
-    float a, b, c, d, e, f;
+//     // Declare float variables to store user input
+//     float a, b, c, d, e, f;
 
-    // Ask the user to enter the coefficients
-    cout << "Enter coefficients (a, b, c, d, e, f): ";
-    cin >> a >> b >> c >> d >> e >> f;
+//     // Ask the user to enter the coefficients
+//     cout << "Enter coefficients (a, b, c, d, e, f): ";
+//     cin >> a >> b >> c >> d >> e >> f;
 
-    // Calculate the determinant
-    float determinant = a * d - b * c;
+//     // Calculate the determinant
+//     float determinant = a * d - b * c;
 
-    // Check if the determinant is zero
-    if (determinant == 0) {
-        cout << "The equation has no solution" << endl;
-    }
+//     // Check if the determinant is zero
+//     if (determinant == 0) {
+//         cout << "The equation has no solution" << endl;
+//     }
     
-    else{
+//     else{
         
-        // Calculate the values of x and y using Cramer's rule
-        float x = (e * d - b * f) / determinant;
-        float y = (a * f - e * c) / determinant;
+//         // Calculate the values of x and y using Cramer's rule
+//         float x = (e * d - b * f) / determinant;
+//         float y = (a * f - e * c) / determinant;
 
-        // Display the values of x and y
-        cout << "x is " << x << " and y is " << y << endl;
-    }
+//         // Display the values of x and y
+//         cout << "x is " << x << " and y is " << y << endl;
+//     }
 
-    return 0;
-}
+//     return 0;
+// }
 
-//End program
+// //End program
  
